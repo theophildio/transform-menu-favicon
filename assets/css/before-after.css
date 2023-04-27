@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+    margin: 50px auto;
+    background-color: #c3c3c3;
+    overflow: hidden;
+}
+
+.heading {
+    margin: 40px 0 0 60px;
+    position: relative;
+    display: inline-block;
+}
+
+.heading::before {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: -11px;
+}
+/* .heading::after {
+    content: "Excluding Tax";
+    color: green;
+    font-size: 14px;
+    position: absolute;
+    top: -10px;
+} */

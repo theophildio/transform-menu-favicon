@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    height: 480px;
+    margin: 50px auto;
+    /* border: 5px solid salmon; */
+    /* position: relative; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    /* position: fixed; */
+    position: sticky;
+    top: 0;
+    
+}
+    
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+}
